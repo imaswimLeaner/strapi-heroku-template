@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "message_infos",
+  "info": {
+    "name": "message_info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

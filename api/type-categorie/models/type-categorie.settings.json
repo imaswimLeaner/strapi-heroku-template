@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "type_categories",
+  "info": {
+    "name": "type_categorie"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categorie": {
+      "type": "string",
+      "required": true
+    },
+    "bookings": {
+      "via": "type_categories",
+      "collection": "booking"
+    }
+  }
+}

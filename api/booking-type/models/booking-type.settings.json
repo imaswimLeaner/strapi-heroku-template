@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_types",
+  "info": {
+    "name": "booking_type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

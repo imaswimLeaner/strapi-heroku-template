@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/message-infos",
+      "handler": "message-info.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/message-infos/count",
+      "handler": "message-info.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/message-infos/:id",
+      "handler": "message-info.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/message-infos",
+      "handler": "message-info.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/message-infos/:id",
+      "handler": "message-info.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/message-infos/:id",
+      "handler": "message-info.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
