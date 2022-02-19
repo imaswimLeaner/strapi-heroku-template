@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "bookings",
+  "collectionName": "establishments",
   "info": {
-    "name": "booking",
+    "name": "establishment",
     "description": ""
   },
   "options": {
@@ -67,6 +67,30 @@
       "collection": "type-categorie",
       "via": "bookings",
       "dominant": true
+    },
+    "pet_friendly": {
+      "type": "boolean"
+    },
+    "restaurant": {
+      "type": "boolean"
+    },
+    "breakfast_included": {
+      "type": "boolean"
+    },
+    "parking_available": {
+      "type": "boolean"
+    },
+    "bar": {
+      "type": "boolean"
+    },
+    "hotel": {
+      "type": "boolean"
+    },
+    "guesthouse": {
+      "type": "boolean"
+    },
+    "function_room": {
+      "type": "boolean"
     }
   }
 }

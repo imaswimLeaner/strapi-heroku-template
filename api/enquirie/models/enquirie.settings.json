@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "messages",
+  "collectionName": "enquiries",
   "info": {
-    "name": "message",
+    "name": "enquirie",
     "description": ""
   },
   "options": {
@@ -12,20 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "first_name": {
-      "type": "string",
-      "required": true
-    },
-    "message": {
-      "type": "text"
+    "full_name": {
+      "type": "string"
     },
     "email_address": {
       "type": "email"
     },
-    "last_name": {
-      "type": "string"
+    "check_in": {
+      "type": "date"
     },
     "subject": {
+      "type": "string"
+    },
+    "check_out": {
+      "type": "date"
+    },
+    "accomodation_name": {
       "type": "string"
     }
   }
