@@ -27,7 +27,7 @@
     "check_out": {
       "type": "date"
     },
-    "accomodation_name": {
+    "accommodation_name": {
       "type": "string"
     },
     "message": {
