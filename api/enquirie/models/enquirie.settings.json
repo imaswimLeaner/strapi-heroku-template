@@ -29,6 +29,9 @@
     },
     "accomodation_name": {
       "type": "string"
+    },
+    "message": {
+      "type": "text"
     }
   }
 }
