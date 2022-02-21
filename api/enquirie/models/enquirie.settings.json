@@ -32,6 +32,9 @@
     },
     "message": {
       "type": "text"
+    },
+    "establish_name": {
+      "type": "string"
     }
   }
 }
